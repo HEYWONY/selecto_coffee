@@ -1,0 +1,184 @@
+.container {
+    height: 100vh;
+}
+
+/* header */
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    /* align-items, justify-content는 display flex 속 속성 */
+    align-items: center;
+    justify-content: space-center;
+}
+
+header img {
+    margin-left: 53px;
+}
+
+.nav_menu {
+    width: calc(100% - 175px);
+    display: flex;
+    justify-content: space-around;
+}
+.menu {
+    display: flex;
+    margin-right: -32px;
+    margin-left: 32px;
+    text-align: center;
+}
+.menu li {
+    margin-right: 52px;
+    white-space: nowrap;
+}
+.menu li a {
+    font-size: 0.88rem;
+}
+
+/* icon-box영역 */
+.icon-box {
+    display: flex;
+    margin-right: 35px;
+}
+.icon-box li {
+    width: 24px;
+    height: 24px;
+    margin-right: 35px;
+}
+
+/*홈페이지*/
+.main_img {
+    height: calc(100% - 80px);
+    width: 100%;
+}
+
+
+/*section_1 셀렉토 추천 메뉴*/
+section {
+    width: 100%;
+    height: 80%;
+}
+.seleto_choice {
+    text-align: center;
+    
+}
+.chocie_1 {
+    color:#BF0A17;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 72px;
+}
+.chocie_2 {
+    color: #231916;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+}
+.chocie_3 {
+    color: rgba(0, 0, 0, 0.8);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;   
+}
+.chocie_4{
+    color: #333;
+    float: right;
+    font-size: 18px;
+    line-height: 20px; 
+    padding-right: 20px;
+}
+
+/* section2_ 셀렉토 이벤트*/
+.seleto_event {
+    text-align: center;
+}
+/* section3_ 셀렉토 구인공고 */
+.seleto_story {
+    text-align: center;
+}
+
+/* section4_ 셀렉토 SNS*/
+.seleto_sns {
+    text-align: center;
+}
+
+/*footer*/
+footer {
+    background-color: #BF0A17;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    color: #FFFADA;
+}
+
+footer img {
+    /* display: block; */
+    width: 20%;
+}
+
+.footer_logo {
+    display: flex;
+    max-height: 35px;
+    flex-basis: 100%;
+    align-items: center;
+    text-align : center;
+    margin: 8px 0px;
+}
+.footer_logo::before, .footer_logo::after {
+    content: "";
+    flex-grow: 1;
+    background: #FFFADA;
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 16px;
+}
+
+footer hr {
+    border-width: 1px 0px 0px 0px;
+    height: 1px;
+    border-style: solid;
+    margin: 16px 16px;
+}
+
+footer .inner {
+    padding: 40px 0 60px #333;
+}
+
+footer .footer_menu{
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer_menu li{
+    position: relative;
+}
+
+
+footer .footer_menu li a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 15px;
+    display: block;
+}
+
+footer .info {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+}
+
+footer .info p{
+    margin-right: 20px;
+}
+
+footer .copyright{
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 16px;
+}
